@@ -65,7 +65,10 @@ header .overlay {
 }
 
 .button1:hover {
-    border: solid #00C3DA;
+
+    border: solid 1px #00D5EE;
+    background-color: #00D5EE !important;
+    transition: 0.3s;
 }
 
 .button2 {
@@ -107,7 +110,7 @@ section .who button {
 section .who button:hover {
     background-color: black;
     color: white;
-
+    transition: 0.4s;
 }
 
 .team .team-intro h2 {
@@ -528,4 +531,10 @@ section .who button:hover {
     font-size: 14px;
     font-weight: 600;
 
+}
+
+.contact .lbutton button:hover {
+    border: solid 1px #00D5EE;
+    background-color: #00D5EE !important;
+    transition: 0.3s;
 }
